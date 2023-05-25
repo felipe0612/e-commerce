@@ -1,366 +1,383 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RedStore  E-commerce artigos esportivos</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RedStore | E-commerce artigos esportivos</title>
+
+    <!-- Link para o CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Inserindo favicon -->
+    <link rel="shortcut icon" href="images/logo-favicon.png" type="image/x-icon">
+
+     <!-- Link para fontawesome (Icones) -->
     <script src="https://kit.fontawesome.com/23655c98f8.js" crossorigin="anonymous"></script>
-</head>
-<body>
 
+  </head>
+
+<!-- ____________________________________________________________________________ -->
+<!-- Header -->
+
+  <body>
     <div class="header">
-    <div class="container">
-    <div class="navbar">
-    <div class="logo">
-        <a href="Index.html"> <img src="images/logo.png" alt="logo" width="125px"></a>  
-    </div>
-    <nav>
-        <ul id="MenuItems">
-            <li> <a href="Index.html"></a></li>
-            <li> <a href="produtos.html"></a></li>
-            <li> <a href="sobre.html"></a></li>
-            <li> <a href="login.html"></a></li>
-        </ul>
-    </nav>
-    <a href="pagamentos.html"> <img src="images/cart.png" alt="" width="30px" height="30px"></a>
-    <img src="images/menu.png" alt="" class="menu-icon" onclick="menutoggle()" />
-    </div>
-    </div>
-
-    <!-- Área de destaque -->
-
-    <div class="row">
-        <div class="col-2">
-            <h1>
-                De ao seu treino <br>
-                um novo estilo
-            </h1>
-            <p>
-                O sucesso nem sempre é sobre grandeza. E sobre consistência. <br>
-                trabalho duro obtém sucesso. E o resultado virá.
-            </p>
-            <a href="" class="btn">Conheça agora &#8594;</a>
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html"><img src="images/logo.png" alt="logo" width="125px" /></a>
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="produtos.html">Produtos</a></li>
+              <li><a href="sobre.html">Sobre</a></li>
+              <li><a href="login.html">Login</a></li>
+            </ul>
+          </nav>
+          <a href="pagamentos.html"><img src="images/cart.png" alt="" width="30px" height="30px" /></a>
+          <img src="images/menu.png" alt="" class="menu-icon" onclick="menutoggle()" />
         </div>
-        <div class="col-2">
-            <img src="images/image1.png" alt="">
-
       </div>
-    </div>
-   </div>
- </div>
 
- <!-- ______________________________________________ -->
- <!-- Categorias -->
-
-    <div class="categorias">
-    <div class="small-container">
-    <div class="row">
-    <div class="col-3">
-        <img src="images/category-1.jpg" alt="">
-    </div>
-    <div class="col-3">
-        <img src="images/category-2.jpg" alt="">
-    </div>
-    <div class="col-3">
-        <img src="images/category-3.jpg" alt="">
-    </div>
-    </div>
-    </div>
-    </div>
-
-    <!-- _____________________________________________ -->
-    <!-- Produtos -->
-
-    <div class="small-container">
-        <h2 class="title">Produtos em destaque</h2>
-    <div class="row">
-    <div class="col-4">
-    <a href="produts-detalhes.html"><img src="images/product-1.jpg" alt="" /></a>
-    <a href="produts-detalhes.html"><h4>Camiseta Red Printed by HRX</h4>/></a>
-    <div class="rating">
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa-regular fa-star"></i>
-        </div>
-        <p>R$200,00</p>
-        </div>
-    <div class="col-4">
-        <img src="images/product-2.jpg" alt=""/>
-        <h4>Tenis You R</h4>
-        <div class="rating">
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa-solid fa-star-half-stroke"></i>
-        <i class="fa-regular fa-star"></i>
-        </div>
-        <p>R$950,00</p>
-        </div>
-    <div class="col-4">
-        <img src="images/product-3.jpg" alt=""/>
-        <h4>Calça road Z</h4>
-        <div class="rating">
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa-solid fa-star-half-stroke"></i>
-        </div>
-        <p>R$350,00</p>
-        </div>
-        
-    <div class="col-4">
-        <img src="images/product-4.jpg" alt=""/>
-        <h4>Camiseta Blue T-shirt</h4>
-        <div class="rating">
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa-regular fa-star"></i>
-        </div>
-        <p>R$250,00</p>
-        </div>
-        </div>
-
-        <!-- _______________________________________________ -->
-        <!-- Produtos mais novos -->
-
-        <h2 class="title">Produtos mais recentes</h2>
+<!-- ____________________________________________________________________________ -->
+<!-- Área de destaque -->
 
         <div class="row">
+          <div class="col-2">
+            <h1>
+              Dê ao seu treino <br>
+              um novo estilo
+            </h1>
+            <p>
+            O sucesso nem sempre é sobre grandeza. É sobre consistência. <br>
+            trabalho duro obtém sucesso. E o resultado virá.
+            </p>
+            <a href="" class="btn">Conheça agora &#8594;</a>
+          </div>
+          <div class="col-2">
+            <img src="images/image1.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- ____________________________________________________________________________ -->
+<!-- Categorias -->
+
+    <div class="categories">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <img src="images/category-1.jpg" alt="" />
+          </div>
+          <div class="col-3">
+            <img src="images/category-2.jpg" alt="" />
+          </div>
+          <div class="col-3">
+            <img src="images/category-3.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- ____________________________________________________________________________ -->
+<!-- Produtos -->
+
+    <div class="small-container">
+      <h2 class="title">Produtos em destaque</h2>
+      <div class="row">
         <div class="col-4">
-            <img src="images/product-5.jpg" alt="" />
-            <h4>Tenis Robot S</h4>
-            <div class="rating">
+          <a href="produtos-detalhes.html"><img src="images/product-1.jpg" alt="" /></a>
+          <a href="produtos-detalhes.html"><h4>Camiseta Red Printed by HRX</h4></a>
+          <div class="rating">
+            <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa-regular fa-star"></i>
+          </div>
+          <p>R$200,00</p>
         </div>
-        <p>R$950,00</p>
-        </div>
-    
         <div class="col-4">
-            <img src="images/product-6.jpg" alt="" />
-            <h4>Tenis Robot S</h4>
-            <div class="rating">
+          <img src="images/product-2.jpg" alt="" />
+          <h4>Tenis You R</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa-solid fa-star-half-stroke"></i>
             <i class="fa-regular fa-star"></i>
+          </div>
+          <p>R$950,00</p>
         </div>
-        <p>R$197,99</p>
-        </div>
-
         <div class="col-4">
-            <img src="images/product-7.jpg" alt="" />
-            <h4>Meias Red Printed</h4>
-            <div class="rating">
+          <img src="images/product-3.jpg" alt="" />
+          <h4>Calça road Z</h4>
+          <div class="rating">
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
-            <i class="fa-solid fa-star-half-stroke"></i>           
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <p>R$350,00</p>
         </div>
-        <p>R$17,99</p>
-        </div>
-
-        
         <div class="col-4">
-            <img src="images/product-8.jpg" alt="" />
-            <h4>Relogi Men Style</h4>
-            <div class="rating">
+          <img src="images/product-4.jpg" alt="" />
+          <h4>Camiseta Blue T-shirt</h4>
+          <div class="rating">
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
-            <i class="fa-regular fa-star"></i>        
+            <i class="fa fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>R$250,00</p>
         </div>
-        <p>R$4997,99</p>
-        </div>
+      </div>
 
-        
+<!-- ____________________________________________________________________________ -->
+<!-- Produtos mais novos -->
+
+      <h2 class="title">Produtos mais recentes</h2>
+
+      <div class="row">
         <div class="col-4">
-            <img src="images/product-9.jpg" alt="" />
-            <h4>Relógio Men Factory</h4>
-            <div class="rating">
+          <img src="images/product-5.jpg" alt="" />
+          <h4>Tenis Robot S</h4>
+          <div class="rating">
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
-            <i class="fa-regular fa-star"></i>        
+            <i class="fa fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>R$950,00</p>
         </div>
-        <p>R$8550,00</p>
-        </div>
-
         <div class="col-4">
-            <img src="images/product-10.jpg" alt="" />
-            <h4>Tenis mountain F</h4>
-            <div class="rating">
+          <img src="images/product-6.jpg" alt="" />
+          <h4>Black Printed T-shirt</h4>
+          <div class="rating">
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
-            <i class="fa-solid fa-star-half-stroke"></i> 
-            <i class="fa-regular fa-star"></i>        
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>R$197,99</p>
         </div>
-        <p>R$450,00</p>
-        </div>
-
         <div class="col-4">
-            <img src="images/product-11.jpg" alt="" />
-            <h4>Tenis casual Z</h4>
-            <div class="rating">
+          <img src="images/product-7.jpg" alt="" />
+          <h4>Meias Red Printed</h4>
+          <div class="rating">
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
-            <i class="fa fa-start"></i>
-            <i class="fa-solid fa-star-half-stroke"></i>        
+            <i class="fa fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <p>R$17,99</p>
         </div>
-        <p>R$250,00</p>
-        </div>
-
         <div class="col-4">
-            <img src="images/product-12.jpg" alt="" />
-            <h4>Calça Doble J Slim</h4>
-            <div class="rating">
+          <img src="images/product-8.jpg" alt="" />
+          <h4>Relógio Men Style</h4>
+          <div class="rating">
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
-            <i class="fa-regular fa-star"></i>        
-                   
-        </div>
-        <p>R$700,00</p>
-        </div>
-        </div>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>R$4997,99</p>
         </div>
 
-        <!-- _______________________________________________ -->
-        <!-- Ofertas -->
-        <div class="offer">
-        <div class="small container">
+      <div class="row">
+        <div class="col-4">
+          <img src="images/product-9.jpg" alt="" />
+          <h4>Relógio Men Factory</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>R$8550,00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-10.jpg" alt="" />
+          <h4>Tenis mountain F</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>R$450,00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-11.jpg" alt="" />
+          <h4>Tenis casual Z</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <p>R$250,00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-12.jpg" alt="" />
+          <h4>Calça double J Slim</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>R$700,00</p>
+        </div>
+      </div>
+    </div>
+
+<!-- ____________________________________________________________________________ -->
+<!-- Ofertas -->
+
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/exclusive.png" alt="" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Disponível exclusivamente na RedStore</p>
+                    <h1>Smart band 4</h1>
+                    <small>A Mi band 4 apresenta um display colorido AMOLED 39,9% maior (que o Mi Band 3) full-touch com brilho ajustável, para que tudo fique claro como deve ser.
+                    </small><br>
+                    <a href="" class="btn">Compre agora &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ____________________________________________________________________________ -->
+<!-- Depoimentos -->
+
+<div class="testimonial">
+    <div class="small-container">
         <div class="row">
-        <div class="col-2">
-            <img src="images/exclusive.png" alt="offer-img">
+            <div class="col-3">
+                <i class="fa-solid fa-quote-left"></i>
+                <p>A calça feminina RedStore é simplesmente incrível! Ela valoriza minhas curvas de forma elegante e confortável. A qualidade do tecido é excepcional, proporcionando durabilidade e um toque suave na pele.</p>
+            
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <img src="images/user-1.png" alt="">
+            <h3>Marina Rosa</h3>
         </div>
-        <div class="col-2">
-            <p>Dísponivel exclusivamente na RedStore</p>
-            <h1>Smart band 4</h1>
-            <small>A mi band 4 apresenta um display colorido AMOLED 39,9% maior (que o Mi Band 3) full-touch com brilho ajutável, para que tudo fique claro como deve ser.</small><br>
-            <a href="" class="btn">Compre agora &#8594;</a>
+            <div class="col-3">
+                <i class="fa-solid fa-quote-left"></i>
+                <p>Estou simplesmente impressionado com a camiseta masculina da marca Win. É uma verdadeira obra-prima de estilo e conforto. O ajuste perfeito desta camiseta ressalta minha aparência. Eu recomendo!!</p>
+            
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa-regular fa-star"></i>
             </div>
+            <img src="images/user-2.png" alt="">
+            <h3>Victor Maciel</h3>
+        </div>
+            <div class="col-3">
+                <i class="fa-solid fa-quote-left"></i>
+                <p>Esta blusa se tornou uma das minhas favoritas, pois me faz sentir confiante e estilosa ao mesmo tempo. Recomendo-a a todas as mulheres que desejam se destacar com uma peça de qualidade e beleza incomparáveis.</p>
+            
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
             </div>
-            </div>
-            </div>
+            <img src="images/user-3.png" alt="">
+            <h3>Hayle Holtz</h3>
+        </div>
+        </div>
+    </div>
+</div>
 
-            <!-- _______________________________________________ -->
-            <!-- Depoimnetos -->
-            <div class="testimonisl">
-                <div class="small-container">
-                    <div class="row">
-                        <div class="col-3">
-                            <i class="fa-solid fa-quote-left"></i>
-                            <p>A calça feminina RedStore é simplesmente incrível! Ela valoriza minhas curvas de forma elegante e confortável. A qualidade do tecido é excepcional, proporcionando durabilidade e um toque suave na pele.</p>
-        
-                            <div class="rating">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
-                            </div>
-                            <img src="images/user-1.png" alt="">
-                            <h3>Marina Rosa</h3>
-                        </div>
-                        <div class= "col-3">
-                            <i class="fa-solid fa-quote-left"></i>
-                            <p>Estou simplesmente impressionado com a camiseta masculina da marca Win. É uma verdadeira obra-prima de estilo e conforto. O ajuste perfeito desta camiseta ressalta minha aparência. Eu recomendo!!</p>
-        
-                            <div class="rating">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
-                            </div>
-                            <img src="images/user-2.png" alt="">
-                            <h3>Victor Maciel</h3>
-                        </div>
-                        <div class="col-3">
-                            <i class="fa-solid fa-quote-left"></i>
-                            <p>Esta blusa se tornou uma das minhas favoritas, pois me faz sentir confiante e estilosa ao mesmo tempo. Recomendo-a a todas as mulheres que desejam se destacar com uma peça de qualidade e beleza incomparáveis.</p>
-        
-                            <div class="rating">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                            </div>
-                            <img src="images/user-3.png" alt="">
-                            <h3>Hayle Holtz</h3>
-                        </div>
-                    </div>
-                </div>
+<!-- ____________________________________________________________________________ -->
+<!-- Marcas -->
+
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="images/logo-godrej.png" alt="">
             </div>
-        
-            <!-- Marcas -->
-        
-            <div class="brands">
-                <div class="small-container">
-                    <div class="row">
-                        <div class="col-5">
-                            <img src="images/logo-godrej.png" alt="">
-                        </div>  
-                        <div class="col-5">
-                            <img src="images/logo-oppo.png" alt="">
-                        </div>
-                        <div class="col-5">
-                            <img src="images/logo-coca-cola.png" alt="">
-                        </div>
-                        <div class="col-5">
-                            <img src="images/logo-paypal.png" alt="">
-                        </div>
-                        <div class="col-5">
-                            <img src="images/logo-philips.png" alt="">
-                        </div>              
-                    </div>
-                </div>
+            <div class="col-5">
+                <img src="images/logo-oppo.png" alt="">
             </div>
-        
-            <!-- Footer -->
-        
-            <div class="footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="footer-col-1">
-                            <h3>Use nosso App</h3>
-                        <p>Baixe o aplicativo para celular Android e Ios</p>
-                        <div class="footer-col-2">
-                            <img src="images/logo-white.png" alt="">
-                            <p>Nosso propósito é tornar o prazer e os benefícios do esporte acessíveis a todos</p>
-                        </div>
-                        <div class="footer-col-4">
-                            <h3>Siga-nos</h3>
-                            <ul>
-                                <li>Facebook</li>
-                                <li>Twitter</li>
-                                <li>Instagram</li>
-                                <li>YouTube</li>
-                            </ul>
-                        </div>
-                        </div>
-                        <hr>
-                        <p class="copyright">Copyright 2023 - RedStore</p>
-                    </div>
-                </div>
+            <div class="col-5">
+                <img src="images/logo-coca-cola.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-paypal.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-philips.png" alt="">
             </div>
         </div>
-        
-        <!-- JS para toggle menu -->
-        
-        <script src="menu.js"></script>
-    
-</body>
+    </div>
+</div>
+
+<!-- ____________________________________________________________________________ -->
+<!-- Footer  -->
+
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Use nosso App</h3>
+          <p>Baixe o aplicativo para celular Android e ios</p>
+          <div class="app-logo">
+            <img src="images/play-store.png" alt="">
+            <img src="images/app-store.png" alt="">
+          </div>
+        </div>
+        <div class="footer-col-2">
+          <img src="images/logo-white.png" alt="">
+          <p>Nosso propósito é tornar o prazer e os benefícios do esporte acessíveis a todos</p>
+        </div>
+        <div class="footer-col-4">
+          <h3>Siga-nos</h3>
+          <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+            <li>YouTube</li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <p class="copyright">Copyright 2023 - RedStore</p>
+    </div>
+  </div>
+
+<!-- ____________________________________________________________________________ -->
+<!-- JS para toggle menu  -->
+
+<script src="menu.js"></script>
+
+  </body>
 </html>
