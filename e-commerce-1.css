@@ -524,7 +524,68 @@ th:last-child {
 .iconify {
   padding: 0 10px;
 }
+/* _____________________________________________________ */
+/* Sobre (Página Sobre) */
+.fala {
+  margin: 0;
+  padding: 0;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+  text-align: center;
+}
 
+.somos {
+  color: #ff523b;
+}
+
+.sobre {
+  color: #666;
+  line-height: 1.5;
+}
+/* ______________________________________________________ */
+/* Equipe de desenvolvimento */
+.container-equipe {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.equipe-h2 {
+  border-top: 1px solid #ff523b;
+  padding-top: 15px;
+  text-align: center;
+  color: #ff523b;
+}
+/* Estilos da seção "Equipe" */
+.equipe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.membro {
+  width: 200px;
+  text-align: center;
+  margin: 10px;
+}
+
+.membro img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #333;
+}
+
+.membro h3 {
+  margin-top: 10px;
+}
+
+.membro p {
+  font-size: 14px;
+}
 /* Login (Págin de login) */
 
 .account-page {
