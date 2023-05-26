@@ -309,6 +309,221 @@ ul {
   text-align: center;
 }
 
+/* ____________________________________________________________________ */
+/* Todos os produtos (Páginas de Produtos) */
+
+.row-2 {
+  justify-content: space-between;
+  margin: 100px auto 50px;
+}
+select {
+  border: 1px solid #ff523b;
+  padding: 5px;
+}
+select:focus {
+  outline: none;
+}
+
+.page-btn {
+  margin: 0 auto 80px;
+}
+.page-btn span{
+  display: inline-block;
+  border: 1px solid #ff523b;
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.page-btn span:hover{
+  background: #ff523b;
+  color: #fff;
+}
+
+/* ___________________________________________________________________ */
+/* Produto detalhado (Página Produtos-detalhes) */
+
+.single-product {
+  margin-top: 50px;
+}
+.single-product .col-2 img {
+  padding: 0;
+}
+
+.single-product .col-2 {
+  padding: 20px;
+}
+
+.single-product h4{
+  margin: 20px 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.single-product select {
+  display: block;
+  padding: 10px;
+  margin-top: 20px;
+
+}
+
+.single-product input {
+  width: 50px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 20px;
+  margin-right: 10px;
+  border: 1px solid #ff523b;
+}
+
+input:focus {
+  outline: none;
+}
+
+.single-product .fa {
+  color: #ff523b;
+  margin-left: 10px;
+}
+
+.small-img-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-img-col {
+  flex-basis: 24%;
+  cursor: pointer;
+}
+/* __________________________________________ */
+/* Pagamento produtos */
+
+.cart-page {
+  margin: 80px auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+th {
+  text-align: left;
+  padding: 5px;
+  color: #fff;
+  background: #ff523b;
+  font-weight: normal;
+}
+
+td {
+  padding: 10px 5px;
+}
+
+td input {
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+}
+
+td a {
+  color: #ff523b;
+  font-size: 12px;
+}
+
+td img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.total-price {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.total-price table {
+  border-top: 3px solid #ff523b;
+  width: 100%;
+  max-width: 400px;
+}
+
+td:last-child {
+  text-align: right;
+}
+
+th:last-child {
+  text-align: right;
+}
+
+.container-pag {
+  max-width: 960px;
+  margin: 0 auto;
+  margin-left: 1px;
+  padding: 30px 5px;
+}
+
+.container-pag h4 {
+  color: #ff523b;
+  padding-bottom: 20px;
+}
+
+.parte {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.parte input[type="radio"] {
+  margin-right: 10px;
+}
+
+.parte label {
+  margin-right: 20px;
+  text-align: left;
+}
+
+.iconify {
+  padding: 0 10px;
+}
+/* __________________________________________________ */
+/* Métodos de pagamento */
+
+.container-pag {
+  max-width: 960px;
+  margin: 0 auto;
+  margin-left: 1px;
+  padding: 30px 5px;
+}
+.container-pag h4 {
+  color: #ff523b;
+  padding-bottom: 20px;
+}
+
+.parte {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.parte input[type="radio"] {
+  margin-right: 10px;
+}
+
+.parte label {
+  margin-right: 20px;
+  text-align: left;
+}
+
+.iconify {
+  padding: 0 10px;
+}
 /* ______________________________________________________________________________ */
 /* Responsividade */
 
